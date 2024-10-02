@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "obsidianenhanced-project"
+version = "0.1.0"
+description = "notes automate"
+authors = ["Lorenzo Asimov <lorenzo@asimov.academy>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.24.0"
+python-dotenv = "^1.0.1"
+faster-whisper = "^1.0.3"
+openai = "1.46.1"
+langchain-openai = "^0.2.0"
+moviepy = "^1.0.3"
+langchain = "^0.3.0"
+pytube2 = "^15.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
