@@ -4,6 +4,17 @@
 Este projeto automatiza a criação de notas no Obsidian utilizando Inteligência Artificial para resumir vídeos.
 A automação é feita utilizando agentes com Langchain, PyTube, Whisper, e a API da OpenAI para salvar as notas geradas na pasta do Obsidian.
 
+### Conheça também os cursos da Asimov Academy 🚀:
+
+* Cursos gratuitos de IA e Python do zero, que podem te ajudar a criar suas próprias soluções:
+- https://asimov.academy/curso-gratuito-python/
+- https://asimov.academy/curso-gratuito-ia/
+
+* E Cursos relevantes para um entendimento mais completo de como utilizar as ferramentas deste projeto:
+- https://hub.asimov.academy/curso/agents-de-ia-com-python-e-langchain/
+- https://hub.asimov.academy/curso/engenharia-de-prompts/
+- https://hub.asimov.academy/curso/navegando-na-internet-automaticamente-com-selenium/
+  
 ## Funcionalidades
 * *Download de vídeos do Youtube*
 * *Extrair audios de videos*
@@ -40,16 +51,16 @@ A automação é feita utilizando agentes com Langchain, PyTube, Whisper, e a AP
 
 1. *Clone este repositório:*
 
-   '''shh
+   ```bash
    git clone https://github.com/asimov-academy/Obsidian_enhanced_V2.git
    cd Enhanced_Obsidian_V2
-   '''
+   ```
 
 2. *Inicialize o Projeto com Poetry:*
 
-   '''shh
+   ```bash
    poetry init
-   '''
+   ```
 
    Siga as instruções para configurar o nome do projeto, versão, etc.
 
@@ -57,26 +68,25 @@ A automação é feita utilizando agentes com Langchain, PyTube, Whisper, e a AP
 
    Utilize o poetry para instalar as bibliotecas necessárias:
 
-   '''shh
+   ```bash
    poetry install
-   '''
+   ```
 
 4. *Crie e Configure o Arquivo .env:*
 
    Crie um arquivo .env na raiz do projeto e adicione sua chave da OpenAI API:
 
-   plaintext
+   ```plaintext
    OPENAI_API_KEY = 'sua-chave-aqui'
-   
 
 5. *Inicie o Projeto:*
 
    Ative o ambiente virtual com poetry e execute o projeto:
 
-   '''shh
+   ```bash
    poetry shell
    poetry run python main.py
-   '''
+   ```
 
    Isso ativará o ambiente, inicializará o código.
 
@@ -97,16 +107,7 @@ A automação é feita utilizando agentes com Langchain, PyTube, Whisper, e a AP
 
 Sinta-se à vontade para enviar issues ou pull requests. Contribuições são bem-vindas!
 
-## Conheça também os cursos da Asimov Academy 🚀:
 
-* Cursos gratuitos de IA e Python do zero, que podem te ajudar a criar suas próprias soluções:
-- https://asimov.academy/curso-gratuito-python/
-- https://asimov.academy/curso-gratuito-ia/
-
-* E Cursos relevantes para um entendimento mais completo de como utilizar as ferramentas deste projeto:
-- https://hub.asimov.academy/curso/agents-de-ia-com-python-e-langchain/
-- https://hub.asimov.academy/curso/engenharia-de-prompts/
-- https://hub.asimov.academy/curso/navegando-na-internet-automaticamente-com-selenium/
 
 ## Licença
 
